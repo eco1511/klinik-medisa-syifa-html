@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <title>Klinik Medisa Syifa</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <section>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light bg-white pt-lg-40 pb-lg-40 pt-30 pb-50">
+            <div class="container-fluid">
+                <a href="/">
+                    <img width="156" height="84" src="/assets/icon/logo.png" alt="logo">                   
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-lg gap-lg-0 gap-2">
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="#fasilitaslayanan">Fasilitas & Layanan</a>
+                        </li>
+                        <li class="nav-item dropdown my-auto">
+                                <a class="nav-link dropbtn">Informasi</a>
+                                <div class="dropdown-content">
+                                  <a href="/src/artikel-klinik.html">Artikel Klinik</a>
+                                  <a href="/src/artikel-kesehatan.html">Artikel Kesehatan</a>
+                                </div>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="/src/gallery.html">Galery</a>
+                        </li>
+                        <li class="nav-item my-auto me-lg-20">
+                            <a class="nav-link" href="/src/kontak.html" >Kontak</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill active"
+                                href="./src/sign-in.html" role="button">Log
+                                In</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide text-center" data-bs-ride="carousel" data-aos="zoom-in">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/assets/img/1.jfif" class="img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Promo 50% untuk pembayaran dengan OVO</h1>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/2.jfif" class="img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Second slide label</h1>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/3.jfif" class="img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Third slide label</h1>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>         
+    <!-- -->
+    <section class="header pt-lg-60 pb-50">
+        <div class="container-xxl container-fluid">
+            <div class="row gap-lg-0 gap-5">
+                <div class="col-lg-6 col-12 my-auto" data-aos="zoom-in">
+                    <h1 class="header-title color-palette-1 fw-bold">
+                        <span class="d-sm-inline d-none">Klinik</span><span class="d-sm-none d-inline">
+                        </span><span class="underline-blue"> Medisa Syifa</span> <br class="d-sm-block d-none">
+                    </h1>
+                    <p class="mt-30 mb-40 text-lg color-palette-1">"public health and better life"<br
+                            class="d-md-block d-none">
+                    </p>
+                    <div class="d-flex flex-lg-row flex-column gap-4">
+                        <a class="btn btn-get text-lg text-white rounded-pill" href="/src/kontak.html" role="button">Kontak</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 my-auto" data-aos="zoom-in">
+                    <div class="d-flex justify-content-lg-end justify-content-center me-lg-5">
+                        <div class="position-relative" >
+                            <img src="./assets/img/header.png" class="img-fluid" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 3 Column - Feature -->
+    <section id="feature" class="feature pt-50 pb-50">
+        <div class="container-fluid" id="fasilitaslayanan">
+            <h2 class="text-4xl fw-bold color-palette-1 text-center mb-30">Fasilitas dan Layanan</h2>
+            <div class="row gap-lg-0 gap-4" data-aos="fade-up">
+                <div class="col-lg-6">
+                    <a class="text-decoration-none" href="/src/umum.html">
+                        <div class="card feature-card border-0 text-center">
+                            <img src="/assets/img/umum.png" alt="umum" class="rounded mx-auto d-block" style="height: 300px; width: 270px;">
+                            <p class="fw-semibold text-2xl mb-2 color-palette-1">Umum</p>
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="col-lg-6">
+                    <a class="text-decoration-none" href="/src/laboratorium.html">
+                        <div class="card feature-card border-0 text-center">
+                        <img src="/assets/img/lab.png" alt="" class="rounded mx-auto d-block" style="height: 300px; width: 270px;">
+                        <p class=" fw-semibold text-2xl mb-2 color-palette-1">Laboratorium</p>
+                    </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer pt-50">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 text-lg-start text-center">
+                        <a href="" class="mb-30">
+                            <img src="/assets/icon/instagram.png" alt="instagram" style="padding-left: 30px;">
+                        </a>
+                        <a href="" class="mb-30">
+                            <img src="/assets/icon/youtube.png" alt="youtube" style="padding-left: 30px;">
+                        </a>
+                        <a href="" class="mb-30">
+                            <img src="/assets/icon/wa.png" alt="whatsapp" style="padding-left: 30px;">
+                        </a>
+                        <p class="mt-30 text-lg color-palette-1 mb-30">Copyright 2022. Klinik Medisa Syifa.</p>
+                    </div>
+                    <div class="col-lg-8 mt-lg-0 mt-20">
+                        <div class="row gap-sm-0">
+                            <div class="col-md-4 col-6 mb-lg-0 mb-25">
+                                <p class="text-lg fw-semibold color-palette-1 mb-12">Klinik</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Faslitasi & Layanan</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Galeri</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-6 mb-lg-0 mb-25">
+                                <p class="text-lg fw-semibold color-palette-1 mb-12">Informasi</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Artikel Klinik</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Artikel Kesehatan</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-12 mt-lg-0 mt-md-0 mt-25">
+                                <p class="text-lg fw-semibold color-palette-1 mb-12">Kontak</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-6">
+                                        <a href="mailto: team@store.gg"
+                                            class="text-lg color-palette-1 text-decoration-none">klinikmedisasyifa@gmail.com</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="http://maps.google.com/?q=Pasific 12,
+                                        Jakarta Selatan" class="text-lg color-palette-1 text-decoration-none">Pasific
+                                            12,
+                                            Jakarta Selatan</a>
+                                    </li>
+                                    <li class="mb-6">
+                                        <a href="tel: 02111229090"
+                                            class="text-lg color-palette-1 text-decoration-none">021 - 1122 -
+                                            9090</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" 
+        crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous">
+    </script>
+    <!-- AOS Animation -->
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
