@@ -1,0 +1,14 @@
+.carousel-item {
+  height: 70vh;
+}
+
+.carousel-caption {
+   position: absolute;
+   top: 20%;
+   text-align: left;
+}
+
+.carousel-caption .btn-get{
+  background-color: #1966AD;
+  padding: 0.50rem 2rem;
+}
